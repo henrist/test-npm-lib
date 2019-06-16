@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Some testing",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "source": "src/index.ts",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && microbundle",
+    "build": "rimraf dist && rollup -c",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
@@ -20,17 +20,24 @@
   },
   "homepage": "https://github.com/henrist/test-npm-lib",
   "license": "MIT",
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "devDependencies": {
     "@types/jest": "24.0.15",
     "@types/jest-each": "0.3.4",
     "jest": "24.8.0",
     "jest-each": "24.8.0",
-    "microbundle": "0.11.0",
     "prettier": "1.18.2",
     "rimraf": "2.6.3",
     "ts-jest": "24.0.2",
     "tslint": "5.17.0",
     "tslint-config-prettier": "1.18.0",
     "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "rollup": "^1.15.6",
+    "rollup-plugin-typescript2": "^0.21.1"
   }
 }
