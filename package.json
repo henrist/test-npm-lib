@@ -12,7 +12,8 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "prettier": "prettier --config ./.prettierrc --write 'src/**/*.ts'",
     "prepublishOnly": "npm run lint && npm run test && npm run build",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "jest-each": "24.8.0",
     "prettier": "1.18.2",
     "rimraf": "2.6.3",
+    "semantic-release": "^15.13.16",
     "ts-jest": "24.0.2",
     "tslint": "5.17.0",
     "tslint-config-prettier": "1.18.0",
