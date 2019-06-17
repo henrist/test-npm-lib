@@ -22,3 +22,9 @@ jobs:
       - run:
           name: release
           command: npm run semantic-release
+
+workflows:
+  build:
+    jobs:
+      - build:
+          context: NPM release
