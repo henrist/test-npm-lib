@@ -11,8 +11,6 @@
     "test:watch": "jest --watch",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "prettier": "prettier --config ./.prettierrc --write 'src/**/*.ts'",
-    "prepublishOnly": "npm run lint && npm run test && npm run build",
-    "postversion": "git push && git push --tags",
     "semantic-release": "semantic-release"
   },
   "repository": {
