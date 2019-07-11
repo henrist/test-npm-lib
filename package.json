@@ -38,6 +38,6 @@
   },
   "dependencies": {
     "rollup": "^1.15.6",
-    "rollup-plugin-typescript2": "^0.21.1"
+    "rollup-plugin-typescript2": "^0.22.0"
   }
 }
