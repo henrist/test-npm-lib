@@ -26,8 +26,8 @@
   "devDependencies": {
     "@types/jest": "25.2.3",
     "@types/jest-each": "0.3.4",
-    "jest": "26.0.1",
-    "jest-each": "26.0.1",
+    "jest": "26.1.0",
+    "jest-each": "26.1.0",
     "prettier": "1.19.1",
     "rimraf": "3.0.2",
     "semantic-release": "17.1.0",
