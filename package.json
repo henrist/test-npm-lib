@@ -24,7 +24,7 @@
     "src/"
   ],
   "devDependencies": {
-    "@types/jest": "26.0.3",
+    "@types/jest": "26.0.4",
     "@types/jest-each": "0.3.4",
     "jest": "26.1.0",
     "jest-each": "26.1.0",
