@@ -23,6 +23,7 @@
     "src/"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.27.6",
     "@types/jest": "28.1.8",
     "@types/jest-each": "0.3.4",
     "jest": "28.1.3",
