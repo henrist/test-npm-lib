@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "prettier": "prettier --config ./.prettierrc --write 'src/**/*.ts'"
+    "prettier": "prettier --config ./.prettierrc --write 'src/**/*.ts'",
+    "release": "pnpm build && changeset publish"
   },
   "repository": {
     "type": "git",
